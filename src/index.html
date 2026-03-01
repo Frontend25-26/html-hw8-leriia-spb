@@ -6,16 +6,211 @@
 </head>
 <body>
 <div class="Content">
-    <header id="header">Header</header>
-    <section id="about">About</section>
-    <section id="education">Education</section>
-    <section id="experience">Work Experience</section>
-    <section id="skills">Skills</section>
-    <section id="contacts">Contacts</section>
-    <footer id="footer">Footer</footer>
+    <header id="header">
+        <img src="images/Logo.png" alt="Logo" width="40" height="40">
+        <nav class="nav-menu">
+            <ul class="nav-list">
+                <li>About me</li>
+                <li>Education</li>
+                <li>Work Experience</li>
+                <li>Skills</li>
+                <li>Contacts</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <p class="intro-text">
+            Hello!<br>
+            My name is Alex Smith<br>
+            I'm creative front-end developer
+        </p>
+        <img class="Image main-photo" src="../res/img.png" alt="main photo">
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="edu-wrapper">
+            <div class="edu-card">
+                <div class="edu-name">Kingston university</div>
+                <div class="edu-degree">Master's degree - Software Engineering</div>
+                <div class="edu-years">2019 - 2021</div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-name">Kingston university</div>
+                <div class="edu-degree">Bachelor's degree - Computer Engineering</div>
+                <div class="edu-years">2015 - 2019</div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-name">Westminster School</div>
+                <div class="edu-degree">Diploma's degree - Mathematics</div>
+                <div class="edu-years">2013 - 2015</div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-name">Kingston university</div>
+                <div class="edu-degree">Master's degree - Software Engineering</div>
+                <div class="edu-years">2019 - 2021</div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-name">Kingston university</div>
+                <div class="edu-degree">Bachelor's degree - Computer Engineering</div>
+                <div class="edu-years">2015 - 2019</div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-name">Westminster School</div>
+                <div class="edu-degree">Diploma's degree - Mathematics</div>
+                <div class="edu-years">2013 - 2015</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <ul class="company-list">
+            <li>Apple</li>
+            <li>Microsoft</li>
+            <li>Facebook</li>
+        </ul>
+
+        <article class="job-entry">
+            <img class="Image" src="../res/img_1.png" alt="experience photo" width="554" height="400">
+            <h3 class="job-title">Front-end Developer Apple.Inc</h3>
+            <p class="job-location">California, United States</p>
+            <p class="job-period">Nov 2020 - Present · Full-time</p>
+            <div class="job-description">
+                <p>
+                    В начале XX века немецкие психологи провели исследования восприятия человеком окружающего мира. Они
+                    выявили естественное стремление человека найти порядок в беспорядке.
+                </p>
+                <p>
+                    Их эксперименты показали, что когда мозг обрабатывает полученные образы, он воспринимает
+                    разрозненные элементы как единое целое. Подсознательно мы пытаемся группировать похожие элементы,
+                    распознавать закономерности и таким образом упрощать сложные образы.
+                </p>
+            </div>
+        </article>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skills-row">
+                <span class="skill-label">React</span>
+                <div class="skill-track">
+                    <div class="skill-fill" style="width: 90%"></div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <span class="skill-label">Angular</span>
+                <div class="skill-track">
+                    <div class="skill-fill" style="width: 70%"></div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <span class="skill-label">HTML + CSS</span>
+                <div class="skill-track">
+                    <div class="skill-fill" style="width: 100%"></div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <span class="skill-label">Javascript</span>
+                <div class="skill-track">
+                    <div class="skill-fill" style="width: 20%"></div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <span class="skill-label">Python</span>
+                <div class="skill-track">
+                    <div class="skill-fill" style="width: 25%"></div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <span class="skill-label">Soft skill</span>
+                <div class="skill-track">
+                    <div class="skill-fill" style="width: 80%"></div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <span class="skill-label">Motion graphics</span>
+                <div class="skill-track">
+                    <div class="skill-fill" style="width: 60%"></div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <span class="skill-label">UX</span>
+                <div class="skill-track">
+                    <div class="skill-fill" style="width: 20%"></div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <span class="skill-label">UI</span>
+                <div class="skill-track">
+                    <div class="skill-fill" style="width: 50%"></div>
+                </div>
+            </div>
+            <div class="skills-row">
+                <span class="skill-label">3D</span>
+                <div class="skill-track">
+                    <div class="skill-fill" style="width: 25%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="new-skill-block">
+            <div class="new-skill-title">Add new skill</div>
+            <form>
+                <div class="new-skill-row">
+                    <div class="new-skill-field">
+                        <div class="new-skill-label">Skill name</div>
+                        <input type="text" name="skill-name">
+                    </div>
+                    <div class="new-skill-field">
+                        <div class="new-skill-label">Skill proficiency percentage, %</div>
+                        <input type="text" name="skill-percentage">
+                    </div>
+                    <input type="submit" value="Add" class="add-btn">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Contacts</h2>
+        <div class="contacts-wrapper">
+            <div class="contact-item">
+                <img src="images/pin.png" alt="address icon" width="40" height="40">
+                <div class="contact-info">
+                    <div class="contact-title">Address</div>
+                    <div class="contact-value">16 Lva Tolstogo str., Moscow</div>
+                </div>
+            </div>
+            <div class="contact-item">
+                <img src="images/phone call.png" alt="phone icon" width="40" height="40">
+                <div class="contact-info">
+                    <div class="contact-title">Phone</div>
+                    <div class="contact-value">+7 (000) 000 00 00</div>
+                </div>
+            </div>
+            <div class="contact-item">
+                <img src="images/mail.png" alt="email icon" width="40" height="40">
+                <div class="contact-info">
+                    <div class="contact-title">E-Mail</div>
+                    <div class="contact-value">myemail@yandex.ru</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="social-links">
+            <img src="images/Instagram.png" alt="Instagram" width="24" height="24">
+            <img src="images/GitHub.png" alt="GitHub" width="24" height="24">
+            <img src="images/Twitter.png" alt="Twitter" width="24" height="24">
+            <img src="images/LinkedIn.png" alt="LinkedIn" width="24" height="24">
+        </div>
+        <p class="copyright">© 2023</p>
+    </footer>
+
 </div>
-
-<img class="Image" width="500px"/>
-
 </body>
 </html>
